@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+main{
+  display: flex;
+}
+
+/*SECCION PRINCIPAL*/
+
+main .principal{
+  width: 100%;
+  text-align: center;
+  padding: 225px;
+  background-color:#F8F8F8 ;
+}
+
+.principal img{
+  width: 225px;
+}
+
+
+
+
+
+
+/*SECCION CONTACTOS*/
+
+.contactos{
+  width: 500px;
+  border: solid 1px #e8ebe4;
+}
+
+.contactos .personas{
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  border: solid 1px #e8ebe4;
+  height: 40px;
+}
+
+.contactos .personas .texto{
+  padding: 15px;
+
+}
+
+.contactos img{
+  width: 50px;
+  border-radius: 50px;
+}
+
+.contactos .nuevo_chat{
+  height: 40px;
+  padding: 60px;
+}
+
+.contactos .nuevo_chat button{
+  width: 150px;
+  height: 45px;
+  background-color: #A491D2;
+  border: 0px;
+  color: white;
+  font-size: 15px;
+
+}
