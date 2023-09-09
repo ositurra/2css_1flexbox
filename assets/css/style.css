@@ -65,3 +65,23 @@ main .principal{
   font-size: 15px;
 
 }
+
+
+.contactos nav{
+  border: solid 1px #e8ebe4;
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.contactos nav img{
+  width: 40px;
+}
+
+.contactos nav .item{
+  justify-content:flex-end;
+}
+
+.contactos .perfil{
+  display: flex;
+}
